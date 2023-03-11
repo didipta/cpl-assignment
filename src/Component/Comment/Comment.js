@@ -37,7 +37,7 @@ const Comment = () => {
         ]
       };
     return (
-        <div className="p-10 h-[60vh]">
+        <div className=" h-[60vh] mb-10">
             <Slider {...settings}>
             <div className="relative h-96">
           <div className="relative w-96  shadow-2xl ml-10">

@@ -1,0 +1,52 @@
+.slick-slide >div {
+    margin: 0 2px;
+}
+.slick-slider button
+{
+    position: absolute;
+    left: 90%;
+    top: -40px;
+    z-index:40;
+   
+}
+/* the parent */
+.slick-list {
+}
+.slick-prev:before
+{
+    content: url(../img/pre.png);
+    margin: 50px;
+}
+.slick-next:before
+{
+    content: url(../img/next.png);
+    
+}
+.slick-prev:before,
+.slick-next:before
+{
+    font-size: 30px;
+    color: #c04848;
+    border-radius: 50%;
+   
+}
+.bg-imgset
+{
+    width: 100%;
+    height:70vh;
+    background-image: url(../img/resort.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position:relative;
+    z-index:40;
+}
+.bg-imgset::before
+{
+    content:" ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#d3d3d3d1, #ffffffda,#ffffff);
+    
+}

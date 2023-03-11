@@ -1,0 +1,17 @@
+.box-img
+{
+    background: linear-gradient(#d4d4d451, #ffffff,#ffffff);
+}
+
+.offer
+{
+    width: 100%;
+    height:70vh;
+    background-image: url(../img/sarah-resort.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position:relative;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
